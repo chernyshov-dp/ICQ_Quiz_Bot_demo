@@ -1,0 +1,5 @@
+New member
+
+{'events': [{'eventId': 133, 'payload': {'addedBy': {'firstName': 'Chad', 'lastName': 'Warden', 'nick': 'chaddydaddy', 'userId': '753118585'}, 'chat': {'chatId': '682872526@chat.agent', 'title': 'test12', 'type': 'group'}, 'newMembers': [{'firstName': 'Chad', 'lastName': 'Warden', 'nick': 'chaddydaddy', 'userId': '753118585'}, {'firstName': 'fl_test_bot', 'nick': 'fl_test_bot', 'userId': '766302308'}]}, 'type': 'newChatMembers'}], 'ok': True}
+
+New message
