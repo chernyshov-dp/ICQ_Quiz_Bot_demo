@@ -11,11 +11,11 @@ from logic import start_cb, help_cb, message_cb, team_cb, rules_cb, play_cb, unk
 NAME = "Demo_Quiz_Bot"
 VERSION = "alpha"
 # Токен бота
-TOKEN = "001.3745442009.2489702902:753354310"
+TOKEN = ""
 # Модератор бота, может использоваться в дальнейшем,
 # В данном проекте роли не играет
 # Пример заполнения - @chaddydaddy
-OWNER = "@chaddydaddy"
+OWNER = ""
 TEST_CHAT = None
 TEST_USER = None
 API_URL = None
