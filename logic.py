@@ -297,7 +297,7 @@ def im_new_chat_member_cb(bot, event):
             chat_id = event.data['chat']['chatId']
 
             # Проверка на наличие id бота в списке добавленных участников
-            if event.data['newMembers'][i]['userId'] == '753354310':
+            if event.data['newMembers'][i]['userId'] == '':
                 # {"chat_id}:['этап игры', 'название команды', количество попыток, количество очков, сид сессии]
                 chats[f'{chat_id}'] = ['added', None, None, None, random.randint(100000, 999999)]
                 bot.send_text(
