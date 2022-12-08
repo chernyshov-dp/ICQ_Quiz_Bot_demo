@@ -319,7 +319,7 @@ def im_new_chat_member_cb(bot, event):
 
 
 def my_handler(**args):
-    """ Записать данных словаря chats """
+    """ Запись данных словаря chats """
     print("Данные о чатах успешно сохранены!")
     with open('settings.pkl', 'wb') as f:
         pickle.dump(chats, f)
